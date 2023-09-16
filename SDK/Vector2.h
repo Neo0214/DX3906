@@ -4,8 +4,6 @@
 #include <cmath>
 using namespace std;
 
-#define EMPTY 0
-#define FULL 1
 
 class Vector2
 {
