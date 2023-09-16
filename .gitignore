@@ -43,7 +43,7 @@ run_demo_without_gui.bat
 run_keyboard_demo.bat
 run_simple_demo.bat
 
-/DX3906/.vs
+/SDK/.vs
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
@@ -53,3 +53,10 @@ run_simple_demo.bat
 *.cmake
 /SDK/*.txt
 /SDK/*.sh
+
+*.tlog
+*.log
+*.lik
+*.pdb
+*.ilk
+*.recipe

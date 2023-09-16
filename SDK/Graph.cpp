@@ -1,15 +1,18 @@
 #include "Graph.h"
 
-Graph::Graph() {
+Graph::Graph() 
+{
 	
 }
-Graph::~Graph() {
+Graph::~Graph()
+{
 
 }
 /*
 * 向图中添加工作台,传入工作台的类型
 */
-void Graph::addNode(int type) {
+void Graph::addNode(int type) 
+{
 	this->nodes.push_back(Node(type));
 }
 /*
@@ -24,5 +27,5 @@ void Graph::addEdge(int from, int to, int distance) {
 */
 double Graph::getDistance(int from, int to)
 {
-	return 
+	return 3.0f;
 }
