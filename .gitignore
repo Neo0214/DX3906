@@ -48,3 +48,8 @@ run_simple_demo.bat
 *.vcxproj.filters
 *.vcxproj.user
 *.sln
+
+/SDK/CMakeFiles
+*.cmake
+/SDK/*.txt
+/SDK/*.sh
